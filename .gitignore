@@ -1,49 +1,3 @@
-# C/C++ build outputs
-.build/
-bins
-gens
-libs
-objs
-
-# Python items
-cython_debug/
-python_build/
-yapf_virtual_environment/
-python_pylint_venv/
-.coverage*
-.eggs
-htmlcov/
-dist/
-*.egg
-py27_gevent/
-py27_native/
-py3[0-9]_gevent/
-py3[0-9]_native/
-
-# Node installation output
-node_modules
-src/node/extension_binary/
-
-# gcov coverage data
-reports
-coverage
-*.gcno
-
-# profiler output
-*.prof
-
-# python compiled objects
-*.pyc
-
-# eclipse project files
-.cproject
-.project
-.settings
-
-# cache for run_tests.py
-.run_tests_cache
-.preprocessed_build
-
 # emacs temp files
 *~
 
@@ -52,25 +6,6 @@ coverage
 
 # Makefile's cache
 cache.mk
-
-# Ruby's local gem information
-Gemfile.lock
-
-# Temporary test reports
-report.xml
-*/sponge_log.xml
-latency_trace.txt
-latency_trace.*.txt
-
-# port server log
-portlog.txt
-
-# gyp generated make files
-*-gyp.mk
-out
-
-# YCM config files
-.ycm_extra_conf.py
 
 # XCode
 ^build/
@@ -91,46 +26,3 @@ DerivedData
 *.xcuserstate
 *.DS_Store
 
-# Objective-C generated files
-*.pbobjc.*
-*.pbrpc.*
-
-# Cocoapods artifacts
-Pods/
-Podfile.lock
-*.xcworkspace
-
-# Artifacts directory
-/artifacts/
-
-# Git generated files for conflicting
-*.orig
-
-# IDE specific folder for JetBrains IDEs
-.idea/
-
-# Blaze files
-bazel-bin
-bazel-genfiles
-bazel-grpc
-bazel-out
-bazel-testlogs
-
-# Debug output
-gdb.txt
-
-# ctags file
-tags
-
-# perf data
-memory_usage.csv
-perf.data
-perf.data.old
-
-# bm_diff
-bm_diff_new/
-bm_diff_old/
-bm_*.json
-
-# cmake build files
-/cmake/build
